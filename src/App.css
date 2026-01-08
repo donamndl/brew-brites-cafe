@@ -1,0 +1,41 @@
+/* App.css - Optional custom styles */
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styling (optional) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fef3c7; /* amber-100 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78350f; /* amber-900 */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #92400e; /* amber-800 */
+}
+
+/* Animation for cart items (optional) */
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cart-pop {
+  animation: pop 0.3s ease-in-out;
+}
