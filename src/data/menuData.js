@@ -111,10 +111,24 @@ export const menuData = {
     },
     { 
       id: 16, 
-      name: 'Veggie Wrap', 
+      name: 'Club Sandwich', 
       price: 7.75, 
-      description: 'Hummus, vegetables, feta cheese',
-      image: '/images/sandwiches/veggie-wrap.jpg'
+      description: 'Multi-layered with chicken, bacon, lettuce, tomato and mayo',
+      image: '/images/sandwiches/club-sandwich.jpg'
+    },
+    {
+      id: 17, 
+      name: 'Paneer Sandwich', 
+      price: 5.7, 
+      description: 'Indian-style with spiced paneer cubes and veggies',
+      image: '/images/sandwiches/paneer-corn-spinach-sandwich.jpg'
+    },
+    {
+      id: 18, 
+      name: 'Grilled Cheese Sandwich', 
+      price: 8, 
+      description: 'Buttered bread with melted cheese and tomato',
+      image: '/images/sandwiches/grilled-cheese.jpg' 
     }
   ]
 };

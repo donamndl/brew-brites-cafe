@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuItem from './MenuItem';
 
-export default function Menu({ menuData, activeCategory, setActiveCategory, onAddToCart }) {
+export default function Menu({ menuData, activeCategory, setActiveCategory, onAddToCart, wishlist, onWishlistToggle }) {
   return (
     <section id="menu" className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,6 +49,8 @@ export default function Menu({ menuData, activeCategory, setActiveCategory, onAd
               key={item.id} 
               item={item} 
               onAddToCart={onAddToCart}
+              onWishlistToggle={onWishlistToggle}
+              isWishlisted={wishlist.some(w => w.id === item.id)}
             />
           ))}
         </div>

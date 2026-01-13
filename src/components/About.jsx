@@ -24,10 +24,8 @@ export default function About() {
           Since 2010, Brew & Bites has been serving the finest artisan coffee and
           fresh-baked pastries to our community. We source our beans from
           sustainable farms and bake everything fresh daily.
-          <p>
           Our cozy café is the perfect place to relax, work, or catch up with
           friends over a perfectly crafted cup of coffee.
-        </p>
         </p>
       </div>
     </section>
