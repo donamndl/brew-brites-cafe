@@ -4,10 +4,9 @@ A full-stack Cafe Menu Website with a frontend interface and a backend service t
 
 ## 🛠 Tech Stack
 
-Frontend: React + Vue
-Backend: Python (Flask)
+- Frontend: React + Vue
+- Backend: Python (Flask)
 
 # 🔐Notes
 
-.env and venv/ are excluded from GitHub
-Backend and frontend are managed separately within the same repo
+- .env and venv/ are excluded from GitHub
